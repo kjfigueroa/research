@@ -16,10 +16,10 @@
     </head>
     <body>
         <p>
-            The following code show the below variables:
+            The following code show the below variables:<br>
             <code>
-                carbrand = chevrolet
-                carcolor = bluegray
+                carbrand = chevrolet<br>
+                carcolor = bluegray<br>
             </code>
         </p>
         <hr>

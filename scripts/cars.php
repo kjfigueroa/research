@@ -14,16 +14,16 @@
         <?php
         $carbrand = "chevrolet";
         $carcolor = "bluegray";
+        ?>
         <table>
             <tr>
                 <td>brand</td>
                 <td>color</td>
             </tr>
             <tr>
-                <td>echo $carbrand;</td>
-                <td>echo $carcolor;</td>
+                <td><?php echo $carbrand;?></td>
+                <td><?php echo $carcolor;?></td>
             </tr>
         </table>
-        ?>
     </body>
 </html>

@@ -3,10 +3,27 @@
         <title>Example cars</title>
     </head>
     <body>
+        <p>
+            The following code show the below variables:
+            <code>
+                carbrand = chevrolet
+                carcolor = bluegray
+            </code>
+        </p>
+        <hr>
         <?php
         $carbrand = "chevrolet";
         $carcolor = "bluegray";
-        echo "the brand is: " . $carbrand . "<br>and color is:" . $carcolor;
+        <table>
+            <tr>
+                <td>brand</td>
+                <td>color</td>
+            </tr>
+            <tr>
+                <td>echo $carbrand;</td>
+                <td>echo $carcolor;</td>
+            </tr>
+        </table>
         ?>
     </body>
 </html>

@@ -19,7 +19,7 @@
             The following code show the below variables:<br>
             <code>
                 carbrand = chevrolet<br>
-                carcolor = bluegray<br>
+                carcolor = bluegray
             </code>
         </p>
         <hr>
@@ -29,8 +29,8 @@
         ?>
         <table>
             <tr>
-                <td>brand</td>
-                <td>color</td>
+                <th>brand</th>
+                <th>color</th>
             </tr>
             <tr>
                 <td><?php echo $carbrand;?></td>

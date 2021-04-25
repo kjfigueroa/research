@@ -1,21 +1,7 @@
 <html>
     <head>
         <title>Example cars</title>
-        <style>
-            body{
-                font-family: arial, sans-serif;
-            }
-			table {
-			font-family: arial, sans-serif;
-			border-collapse: collapse;
-			width: 30%;
-			}
-			td, th{
-				border: 1px solid #ccc;
-				text-align: left;
-				padding: 8px;
-			}
-		</style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <p>

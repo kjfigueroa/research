@@ -5,7 +5,7 @@ $fruit2 = "watermellon";
 <html>
     <head>
         <title>Concat</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
         <?php

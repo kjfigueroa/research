@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Example cars</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
         <p>

@@ -15,7 +15,7 @@
         <?php
             $fruit1 = "orange";
             $fruit2 = "watermellon";
-            echo "concat of: " . $fruit1 . "and " . $fruit2;
+            echo "concat of: <b>" . $fruit1 . "</b> and <b>" . $fruit2 . "</b>";
         ?>
     </body>
 </html>

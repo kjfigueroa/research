@@ -5,21 +5,18 @@
     </head>
     <body>
         <p>
-            The following code show the below variables:<br>
+            The following code show are concatenating the below variables:<br>
             <code>
-                carbrand = chevrolet<br>
-                carcolor = bluegray
+                fruit1 = orange<br>
+                fruit2 = watermellon
             </code>
         </p>
         <hr>
         <?php
             $fruit1= "orange";
             $fruit2 = "watermellon";
-            echo "the following is the concat of: ";<br>
-        ?>
-        <code> fruit1 + fruit2 </code><br><hr>
-        <?php
-            echo "the fruits: " . $fruit1 . "and " . $fruit2;
+            echo "concat of: ";<br>
+            echo "Fruits: " . $fruit1 . "and " . $fruit2;
         ?>
     </body>
 </html>

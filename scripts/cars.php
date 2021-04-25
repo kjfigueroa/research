@@ -2,6 +2,9 @@
     <head>
         <title>Example cars</title>
         <style>
+            body{
+                font-family: arial, sans-serif;
+            }
 			table {
 			font-family: arial, sans-serif;
 			border-collapse: collapse;

@@ -13,8 +13,8 @@
         </p>
         <hr>
         <?php
-            $fruit1= "orange";
-            $fruit2 = "watermellon";
+            $fruit1 = "orange";
+            $fruit2 = "watermellon";<br>
             echo "concat of: ";<br>
             echo "Fruits: " . $fruit1 . "and " . $fruit2;
         ?>

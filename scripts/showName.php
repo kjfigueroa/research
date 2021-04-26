@@ -20,7 +20,7 @@
                 <td>myName.php</td>
                 <td><?php 
                     //calling the myName.php function
-                    include_once '../functions/myName.php';
+                    require ('../functions/myName.php');
                     myName();
                     ?>
                 </td>

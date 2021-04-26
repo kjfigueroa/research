@@ -20,7 +20,7 @@
                 <td>myName.php</td>
                 <td><?php 
                     //calling the myName.php function
-                    include 'functions/myname.php';
+                    include 'functions/myName.php';
                     printname();
                     ?>
                 </td>

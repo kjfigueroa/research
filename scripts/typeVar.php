@@ -52,7 +52,7 @@
             </tr>
             <tr>
                 <td><?php echo "Array";?></td>
-                <td><?php echo $array;?></td>
+                <td><?php echo 'var_dump($array);';?></td>
             </tr>
         </table>
     </body>

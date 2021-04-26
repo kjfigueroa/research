@@ -13,7 +13,7 @@
                 <li>Strings</li>
                 <li>Arrays</li>
                 <li>Objects</li>
-                <br><hr>
+                <hr>
                 &#36;intNum = 123&#59;<br>
                 &#36;Double = 30.01&#59;<br>
                 &#36;Boolean = true&#59;<br>

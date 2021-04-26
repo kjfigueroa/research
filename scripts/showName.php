@@ -11,10 +11,6 @@
             </code>
         </p>
         <hr>
-        <?php
-            //calling the myName.php function
-            include 'functions/myname.php';
-        ?>
         <table>
             <tr>
                 <th>Function</th>
@@ -22,7 +18,12 @@
             </tr>
             <tr>
                 <td>myName.php</td>
-                <td><?php printname();?></td>
+                <td><?php 
+                    //calling the myName.php function
+                    include 'functions/myname.php';
+                    printname();
+                    ?>
+                </td>
             </tr>
         </table>
     </body>

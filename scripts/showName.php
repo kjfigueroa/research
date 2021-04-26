@@ -22,7 +22,7 @@
             </tr>
             <tr>
                 <td>myName.php</td>
-                <td><?php myName();?></td>
+                <td><?php printname();?></td>
             </tr>
         </table>
     </body>

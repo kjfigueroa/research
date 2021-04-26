@@ -21,7 +21,7 @@
                 <td><?php 
                     //calling the myName.php function
                     include '/functions/myName.php';
-                    printname();
+                    myName();
                     ?>
                 </td>
             </tr>

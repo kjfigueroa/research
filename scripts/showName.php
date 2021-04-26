@@ -13,7 +13,7 @@
         <hr>
         <?php
             //calling the myName.php function
-            include 'functions/myName.php';
+            include 'functions/myname.php';
         ?>
         <table>
             <tr>
@@ -22,7 +22,7 @@
             </tr>
             <tr>
                 <td>myName.php</td>
-                <td><?php myNamm();?></td>
+                <td><?php myName();?></td>
             </tr>
         </table>
     </body>

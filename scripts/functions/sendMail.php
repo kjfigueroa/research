@@ -9,7 +9,7 @@ function sendmail(){
     $message = "testing from server Daketa - 192.168.1.112:8082";
     $headers = 'Content-Type: text/plain; charset=UTF-8';
     $parameters = '-v';
-    $success = mail($to,$subject,$message,$headers,$parameters);
+    $success = mail($to,$Subject,$message,$headers,$parameters);
     if ($success){
         $response = 'Message sent successfully.';
     } else{

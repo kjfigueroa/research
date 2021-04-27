@@ -7,9 +7,9 @@ function sendMail(){
     $to = "kevin.jessid@gmail.com, kevinfm.job@gmail.com, megamankevin7@gmail.com, taniajessid@gmail.com, judith2719@hotmail.com";
     $Subject = 'mail from PHP Scripting';
     $message = "testing from server Daketa - 192.168.1.112:8082";
-    $headers = 'Content-Type: text/plain; charset=UTF-8';
+    //$headers = 'Content-Type: text/plain; charset=UTF-8';
     $parameters = '-v';
-    $success = mail($to,$Subject,$message,$headers,$parameters);
+    $success = mail($to,$Subject,$message,$parameters);
     if ($success){
         $response = 'Message sent successfully.';
     } else{

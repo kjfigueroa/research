@@ -1,7 +1,7 @@
 <?php
 //this function is for send an email through PHP
 
-function sendmail(){
+function sendMail(){
 //    echo 'Subject: Test\n\nValidando Ajustes' | sendmail -v megamankevin7@gmail.com kevin.jessid@gmail.com
 
     $to = "kevin.jessid@gmail.com, kevinfm.job@gmail.com, megamankevin7@gmail.com, taniajessid@gmail.com, judith2719@hotmail.com";
